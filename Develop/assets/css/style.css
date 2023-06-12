@@ -1,13 +1,16 @@
+/* This rule applies to all the page */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* This rule applies to the body element */
 body {
   background-color: #d9dcd6;
 }
 
+/* This rule applies to the header element and the selected elements inside the header */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -43,15 +46,18 @@ header {
   }
 }
 
+/* This rule applies to the anchor element */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* This rule applies to the paragraph element*/
 p {
   font-size: 16px;
 }
 
+/* This rule applies to the footer element and the selected elements inside the footer */
 footer {
   padding: 30px;
   clear: both;
@@ -64,6 +70,7 @@ footer {
   }
 }
 
+/* This rule applies to the element(s) that has the class 'header-image' */
 .header-image {
   height: 800px;
   width: 100%;
@@ -73,17 +80,20 @@ footer {
   background-position: center;
 }
 
+/* This rule applies to the element(s) that has the class 'float-left' */
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/* This rule applies to the element(s) that has the class 'float-right' */
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
-.content {
+/* This rule applies to the element that has the id 'content' and the selected elements inside it */
+#content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
@@ -108,7 +118,8 @@ footer {
   }
 }
 
-.benefits {
+/* This rule applies to the element that has the id 'benefits' and the selected elements inside it */
+#benefits {
   margin-right: 20px;
   padding: 20px;
   clear: both;
