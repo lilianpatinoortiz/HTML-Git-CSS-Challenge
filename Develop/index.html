@@ -1,17 +1,36 @@
+<!-- !DOCTYPE: The type of document -->
 <!DOCTYPE html>
+<!-- HTML: its the root of the document, contains the lang element -->
 <html lang="en-us">
+  <!-- HEAD: head information, or metadata, that helps the browser to render the page correctly. Elements included within the <head> are not visible when a user looks at a webpage -->
   <head>
+    <!-- META: contains information about the page that is used by the browser, defines metadata such as the character set, description, keywords, author, and viewport. -->
+    <!-- * charset: specifies the character encoding for the HTML document -->
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- LINK:  connects an external resource to the HTML document -->
+    <!-- * rel:  specifies the relationship between the current document and the linked document/resource -->
+    <!-- * type: specifies the media type of the linked document/resource -->
+    <!-- * href: indicates the link's destination -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+
+    <!-- TITLE: defines the title for a webpage -->
     <title>Horiseon - Marketing Agency</title>
   </head>
 
+  <!-- BODY: contains the content that is shown to the user. All the elements that we want the user to see and interact with must be placed inside this element-->
   <body>
+    <!-- HEADER: introductory content, typically a group of introductory or navigational aids -->
     <header>
+      <!-- H1: Heading, SPAN: inline container for phrasing content-->
       <h1>Hori<span class="seo">seo</span>n</h1>
+      <!-- NAV: represents a section of a page whose purpose is to provide navigation links -->
       <nav>
+        <!--UL: unordered list-->
         <ul>
+          <!-- LI: list item -->
           <li>
+            <!-- A: anchor, creates links -->
             <a href="#search-engine-optimization">Search Engine Optimization</a>
           </li>
           <li>
@@ -25,16 +44,27 @@
         </ul>
       </nav>
     </header>
+
+    <!-- MAIN: represents the dominant content of the <body> of a document. The content inside the <main> element should be unique to the documen -->
     <main>
+      <!-- DIV: division or a section-->
+      <!-- ~ The header background image assigned in this section -->
       <div class="header-image"></div>
+
+      <!-- SECTION: generic standalone section of a document, should always have a heading inside. -->
+      <!-- ~ The content is assigned in this section -->
       <section class="content">
         <div id="search-engine-optimization">
+          <!-- IMG: embeds an image into the document-->
+          <!-- * alt: Specifies an alternate text for the image, if the image for some reason cannot be displayed -->
+          <!-- * src: Specifies the path to the image -->
           <img
             alt="SEO Notebook"
             src="./assets/images/search-engine-optimization.jpg"
             class="float-left"
           />
           <h2>Search Engine Optimization</h2>
+          <!-- P: represents a paragraph -->
           <p>
             The dominance of mobile internet use means that users are searching
             for the right business as they travel, shop, or sit on their couch
@@ -72,7 +102,9 @@
           </p>
         </div>
       </section>
+      <!-- The benefits are assigned in this section -->
       <section class="benefits">
+        <!-- 1st benefit is assigned in this div -->
         <div>
           <h3>Lead Generation</h3>
           <img
@@ -84,6 +116,7 @@
             business, bringing customers directly to your website.
           </p>
         </div>
+        <!-- 2nd benefit is assigned in this div -->
         <div>
           <h3>Brand Awareness</h3>
           <img
@@ -95,6 +128,7 @@
             increasing the search ranking and visibility for your business.
           </p>
         </div>
+        <!-- 3rd benefit is assigned in this div -->
         <div>
           <h3>Cost Management</h3>
           <img
@@ -108,6 +142,7 @@
         </div>
       </section>
     </main>
+    <!-- FOOTER: contains the author, copyright, contact, sitemap, and navigation  -->
     <footer>
       <h2>Made with ❤️️ by Horiseon</h2>
       <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
