@@ -28,6 +28,8 @@ To run the project in your local machine:
 5. Right click on the file and select "Open in default browser"
 6. A new window on your default browser should open with the web page containing the prework study guide
 
+Access the deployed project here: https://lilianpatinoortiz.github.io/HTML-Git-CSS-Challenge-Lilian/
+
 ## Usage
 
 After running the project you will be able to access the refactored site! 
