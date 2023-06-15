@@ -37,7 +37,7 @@ You might be wondering why you can barely see any difference compared to the old
 A refactor consists on restructuring an existing body, just altering the internal structure without changing the functionality. Basically its improving the quality of the code base!
 Below is an image of what you should be seing when you run the project or access the deployment.
 
-![alt text](assets/images/readme-ss.png)
+![Challenge 01 screenshot](assets/images/readme-ss.png)
 
 ## Credits
 
