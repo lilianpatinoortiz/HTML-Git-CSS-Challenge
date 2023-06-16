@@ -22,13 +22,13 @@
 To run the project in your local machine:
 
 1. Open visual studio in your computer or laptop
-2. Clone the git project: https://github.com/lilianpatinoortiz/HTML-Git-CSS-Challenge-Lilian.git (git clone LINK)
-3. Pull the latest from the 'main' branch (git pull origin main)
+2. Clone the git project: https://github.com/lilianpatinoortiz/Horiseon-CodeRefactor-Agency
+3. Pull the latest from the 'main' branch 
 4. Locate the index.html file
 5. Right click on the file and select "Open in default browser"
 6. A new window on your default browser should open with the web page containing the prework study guide
 
-Access the deployed project here: https://lilianpatinoortiz.github.io/HTML-Git-CSS-Challenge-Lilian/
+Access the deployed project here: https://lilianpatinoortiz.github.io/Horiseon-CodeRefactor-Agency/
 
 ## Usage
 
